@@ -84,6 +84,7 @@ def check_password():
     if not st.session_state.authenticated:
         st.title("🤖 RAG Document Chatbot")
         password = st.text_input("Enter demo password", type="password")
+        st.caption("💡 Demo password: demo2026")
         if st.button("Login"):
             if password == "demo2026":
                 st.session_state.authenticated = True
