@@ -10,7 +10,7 @@ pinned: true
 
 # 🤖 RAG Document Chatbot
 
-[![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen)](https://rag-chatbot-openai-jwdjh5few585qmnld6cgwm.streamlit.app/)
+[![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen)](https://huggingface.co/spaces/hanzheng0613/rag-chatbot-openai)
 [![Python](https://img.shields.io/badge/Python-3.11-blue)](https://python.org)
 [![LangChain](https://img.shields.io/badge/LangChain-1.x-orange)](https://langchain.com)
 [![Pinecone](https://img.shields.io/badge/Pinecone-Vector%20Store-purple)](https://pinecone.io)
@@ -23,7 +23,7 @@ Built with **OpenAI GPT-4o**, **LangChain Core 1.x (LCEL)**, **Pinecone**, and *
 
 ## 🚀 Live Demo
 
-👉 **[Try it here](https://rag-chatbot-openai-jwdjh5few585qmnld6cgwm.streamlit.app/)**
+👉 **[Try it here](https://huggingface.co/spaces/hanzheng0613/rag-chatbot-openai)**
 
 **Demo password:** `demo2026`
 
