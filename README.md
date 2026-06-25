@@ -1,3 +1,13 @@
+---
+title: RAG Document Chatbot
+emoji: 🤖
+colorFrom: blue
+colorTo: purple
+sdk: docker
+app_port: 7860
+pinned: true
+---
+
 # 🤖 RAG Document Chatbot
 
 [![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen)](https://rag-chatbot-openai-jwdjh5few585qmnld6cgwm.streamlit.app/)
