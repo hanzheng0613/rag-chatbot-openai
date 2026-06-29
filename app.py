@@ -76,24 +76,7 @@ def get_answer(llm, retriever, question, chat_history):
     })
     return answer, docs
 
-# Password protection
-def check_password():
-    if "authenticated" not in st.session_state:
-        st.session_state.authenticated = False
 
-    if not st.session_state.authenticated:
-        st.title("🤖 RAG Document Chatbot")
-        password = st.text_input("Enter demo password", type="password")
-        st.caption("💡 Demo password: demo2026")
-        if st.button("Login"):
-            if password == "demo2026":
-                st.session_state.authenticated = True
-                st.rerun()
-            else:
-                st.error("Incorrect password")
-        st.stop()
-
-check_password()
 
 # ── UI ─────────────────────────────────────────────────────
 st.set_page_config(page_title="RAG Chatbot", page_icon="🤖")
